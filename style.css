@@ -1,10 +1,33 @@
 body{
-    font-family:"Segoe UI","Hiragino Kaku Gothic ProN",sans-serif;
-    line-height: 1,8;
-    margin: 20px auto;
-    max-width: 800px;
+    font-family: "Yu Gothic",sans-serif;
+    background-color:#f4f8ff;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
 }
 
-h1,h2{
-    margin-top: 40px;
+h1{
+    font-size: 28px;
+    color : #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+    padding-bottom: 10px;
+}
+
+h2{
+    margin-top: 30px;
+    color: #ff6600;
+}
+
+p{
+    margin: 15px 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.1);
 }
