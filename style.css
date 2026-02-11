@@ -8,10 +8,10 @@ body{
 }
 
 h1{
-    font-size: 28px;
+    font-size: 32px;
     color : #1a73e8;
-    border-bottom: 3px solid #1a73e8;
-    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 h2{
@@ -30,4 +30,20 @@ p{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0,0.1);
+}
+
+nav{
+    background: #1a73e8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
