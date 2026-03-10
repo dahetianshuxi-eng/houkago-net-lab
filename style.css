@@ -5,7 +5,7 @@ margin:0;
 }
 
 header{
-background:#4f46e5;
+background:#00a479;
 color:white;
 text-align:center;
 padding:30px;
@@ -95,4 +95,20 @@ transition:0.3s;
 .card:hover{
 transform: translateY(-5px);
 box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card{
+opacity:0;
+transform:translateY(40px);
+transition:all 0.6s ease;
+}
+
+.card.show{
+opacity:1;
+transform:translateY(0);
+}
+
+.logo{
+width:200px;
+margin-bottom:10px;
 }

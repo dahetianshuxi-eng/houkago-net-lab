@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
 <title>放課後ネットラボ</title>
 
 <link rel="stylesheet" href="style.css">
@@ -10,7 +11,10 @@
 
 <body>
 <header>
-<h1 class="logo">放課後ネットラボ</h1>
+
+<img src="logo.png/image_3188f065-01a7-4a38-b51c-06d362cfa922.png" class="logo">
+
+<h1>放課後ネットラボ</h1>
 <p>高校生がネットで挑戦するブログ</p>
 
 <nav>
@@ -52,6 +56,24 @@
 <footer>
 © 放課後ネットラボ
 </footer>
+
+<script>
+
+const cards = document.querySelectorAll('.card');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+cards.forEach(card => {
+  observer.observe(card);
+});
+
+</script>
 
 </body>
 </html>
